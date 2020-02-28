@@ -1,0 +1,15 @@
+API_ENDPOINT = "https://gentle-fjord-76321.herokuapp.com/verifyVehicle"
+
+data = {'plate_id':"9999"} 
+
+status_code:200,
+data:
+{
+    "hash": "0x845a58729930d2530266f7e1eeaad5c97c93c8f0df3dbcb502091d0d957a2a76"
+}
+
+
+status_code:500,
+{
+    "err": "{}"
+}
